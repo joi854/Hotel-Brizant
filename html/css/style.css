@@ -47,3 +47,17 @@
     background-image: url(https://i.makeagif.com/media/5-01-2017/PycmF1.gif);
  color: white;   
 }
+#direccion>h3{
+    background-color: rgb(247, 240, 240);
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+#irbrizant{
+    margin-top: 1%;
+    display: block;
+    color:green;
+    text-decoration: none;
+    margin-left: 50%;
+
+}
