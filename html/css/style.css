@@ -1,4 +1,38 @@
 *{
-    margin: 0px;
-    padding: 0%;
+   margin: 0;
+   padding: 0;
+}
+
+.cabecera{
+    display:block;
+    text-align:center;
+    font-family:'Roboto', sans-serif;    
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Binary_system_coalescence.gif/300px-Binary_system_coalescence.gif);
+    color: white;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+}
+#linea{
+    background-color: green;
+    width: 100%;
+    height: 4px;
+    position: fixed;
+    margin-top: 100px;
+    
+}
+#link{
+    position: sticky;
+    text-decoration: none;
+    position: fixed;
+    margin-top: 105px;
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    
+}
+#link>a{
+    color: white;
+    text-decoration: none;
+    padding: 30px 20px;
 }
