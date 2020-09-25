@@ -2,7 +2,6 @@
    margin: 0;
    padding: 0;
 }
-
 .cabecera{
     display:block;
     text-align:center;
@@ -14,7 +13,7 @@
     position: fixed;
 }
 #linea{
-    background-color: green;
+    background-color: white;
     width: 100%;
     height: 4px;
     position: fixed;
@@ -35,4 +34,16 @@
     color: white;
     text-decoration: none;
     padding: 30px 20px;
+}
+#vista{
+    display: block;
+    margin-left: 50px;
+    width: 50%;
+}
+
+#direccion>h2{
+    font-family:'Roboto', sans-serif;       
+    text-align: center;
+    background-image: url(https://i.makeagif.com/media/5-01-2017/PycmF1.gif);
+ color: white;   
 }
