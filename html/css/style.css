@@ -78,15 +78,15 @@ h1.N::first-letter{
     
     display: block;
     margin-left: 24%;
-    margin-top: -26%;
+    margin-top: -23.7%;
     background-color: rgb(22, 22, 78);
-    width: 40%;
+    width: 41.5%;
     color: white;
 }
 
 #servicios>table
 {
-    height: 330px;
+    height: 320px;
     width: 100%;
     text-align: justify;
     font-size: 23px;
@@ -101,11 +101,12 @@ h1.N::first-letter{
 }
 
 #imagen{
-    height: 400px;
+    height: 322px;
     display: block;
     border-radius: 20%;
     margin-left: 4%;
-    margin-top: 7%;
+    margin-top: 10px;
+    width: 18.3%;
 }
 
 #lin{
