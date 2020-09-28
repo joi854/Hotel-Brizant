@@ -162,15 +162,18 @@ width: 100%;
 #guardar{
     display: inline-block;
     width: 40%;
-    height: 50px;
+    height: 40px;
     margin-left: 30%;
-    border-radius: 40%;
+    border-radius: 90px;
     border:none;
     background-color: green;
     font-size: 25px;
     color: white;
+    margin-bottom: 10px;
 }
-
+#guardar:hover{
+    background-color: rgb(14, 235, 14);
+}
 
 
 #c{
