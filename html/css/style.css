@@ -2,6 +2,10 @@
    margin: 0;
    padding: 0;
 }
+h1.N::first-letter{
+    
+    font-size: 45px;
+}
 .cabecera{
     display:block;
     text-align:center;
