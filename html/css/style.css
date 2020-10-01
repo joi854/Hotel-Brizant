@@ -4,6 +4,7 @@ body{
 *{
    margin: 0;
    padding: 0;
+   font-family:'Roboto', sans-serif;       
 }
 .cabecera{
     display:block;
@@ -73,26 +74,7 @@ h1.N::first-letter{
     text-decoration: none;
     margin-left: 50%;
 }
-#servicios
-{
-    
-    display: block;
-    margin-left: 24%;
-    margin-top: -23.7%;
-    background-color: rgb(22, 22, 78);
-    width: 41.5%;
-    color: white;
-}
 
-#servicios>table
-{
-    height: 320px;
-    width: 100%;
-    text-align: justify;
-    font-size: 23px;
-    
-    
-}
 #li{
     display: block;
     width: 100%;
@@ -101,35 +83,66 @@ h1.N::first-letter{
 }
 
 #imagen{
-    height: 322px;
+    height: 600px;
     display: block;
     border-radius: 20%;
-    margin-left: 4%;
-    margin-top: 10px;
-    width: 18.3%;
+margin-right:auto ;
+    margin-top: 35px;
+    width: 20%;
+    margin-left: 15%;
+}
+#tarjetas{
+    width: 510px;
+    background-color: rgb(53, 133, 199);
+    margin: 12px;
+    float: left;
+    height: 300px;
+    color: rgb(248, 246, 246);
+    margin-top: -15%;
+    margin-left:40%;
+    font-size: 20px;
+}
+#s{
+    color:white;
+    background-color: rgb(49, 35, 35);
+}
+#servicios{
+
+    width: 500px;
+    background-color:  rgb(53, 133, 199);
+    margin: 12px;
+    text-align: center;
+    float: left;
+    height: 300px;
+    color: white;
+    margin-top: -50%;
+    margin-left: 40%;
+    font-size: 20px;
 }
 
 #lin{
 
-background-color: rgb(97, 88, 88);
-width: 100%;
-    height: 2px;
-    margin-top: 30px;
-}
+    background-color: rgb(97, 88, 88);
+    width: 100%;
+        height: 2px;
+        margin-top: 105px;
+    }
+
 #re{
-    margin-top: 5%;
+    margin-top: 8%;
     font-size: 40px;
     font-family:'Roboto', sans-serif;    
     text-align: center;
 }
+
 #reservaciones{
     border: none;
     display:inline-block;
     width: 60%;
-    margin-top: 5%;
+    margin-top: 8%;
     margin-left: 25%;
     border-radius: 30px;
-    background-color: cornflowerblue;
+    background-color: rgb(42, 72, 128);
     border-width: 1px;
     border-style: solid;
 }
@@ -186,7 +199,6 @@ width: 100%;
     background-color: rgb(14, 235, 14);
 }
 
-
 #c{
     margin-left: 50%;
     margin-top: 5%;
@@ -217,7 +229,6 @@ width: 100%;
 #derechos{
     margin-left: 45%;
 }
-
 #au{
     margin-left: 50%;
 }
@@ -225,3 +236,4 @@ width: 100%;
 #h4{
     margin-left: 47%;
 }
+
