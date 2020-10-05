@@ -310,7 +310,7 @@ h1.N::first-letter{
 }
 
 #main-gal{
-    background-color: rgb(42, 72, 128);
+    background-color: cornflowerblue;
     display: inline-block;
     width: 100%;
     height: auto;
@@ -326,4 +326,16 @@ h1.N::first-letter{
     border-style: solid;
     border-width: 2px;
      margin: 20px;
+}
+
+.contenedorh1
+{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+div.contenedorh1 > h1
+{
+    padding: 10px;
+    text-align: center;
 }
