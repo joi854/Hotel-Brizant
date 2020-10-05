@@ -1,3 +1,35 @@
+
+div#slider { overflow: hidden; } /* las imágenes no van a salir del márgen de la pantalla*/
+div#slider figure img { width: 20%; float: left; }
+
+div#slider figure { 
+  position: relative;
+  width: 450%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 15s slidy infinite; /*el movimiento se va a mantener de forma indefinida -infinito-*/
+}
+
+img{
+    width: 200px;
+    display: inline-block;
+}
+/*esta parte del código define el movimiento de las imágenes a la izquierda*/
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+
 body{
     background-color: honeydew;
 }
@@ -86,7 +118,7 @@ h1.N::first-letter{
     height: 600px;
     display: block;
     border-radius: 20%;
-margin-right:auto ;
+    margin-right:auto ;
     margin-top: 35px;
     width: 20%;
     margin-left: 15%;
@@ -237,3 +269,61 @@ margin-right:auto ;
     margin-left: 47%;
 }
 
+
+#main-gal{
+    width: 80%;
+    background-color: rgb(42, 72, 128);
+    height: auto;
+    border-style: solid 1px rgb(42, 72, 128);
+    border: solid 1px blue;
+}
+
+#imag{
+    width: 20%;
+    margin-left: 11px;
+    height: 200px;
+    
+}
+
+#imagen2{
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 500px;
+    border-radius: 1px;
+    text-align: center;
+    font-size: 22px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#imagen3{
+    background-color: cornflowerblue;
+    width: 600px;
+    height: 510px;
+    border-radius: 1px;
+    text-align: center;
+    font-size: 22px;
+    float: left;
+    border-style: solid;
+    border-width: 2px;
+}
+
+#main-gal{
+    background-color: rgb(42, 72, 128);
+    display: inline-block;
+    width: 100%;
+    height: auto;
+}
+#imag{
+    /*background-color: cornflowerblue;*/
+    width: 30%;
+    height: 320px;
+    border-radius: 1px;
+    text-align: center;
+    font-size: 22px;
+    float: left;
+    border-style: solid;
+    border-width: 2px;
+     margin: 20px;
+}
