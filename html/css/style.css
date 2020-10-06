@@ -344,7 +344,7 @@ h1.N::first-letter{
 
 #footer{
     margin-top: 10%;
-    background-color: black;
+    background-color: rgb(17, 16, 16);
     color: white;
 }
 
@@ -430,7 +430,7 @@ div.contenedorh1 > h1
     text-align: center;
 }
 #cnt{
-    width: 90%;
+    width: 100%;
     height: auto;
     border-top: solid 1px gray;
     border-bottom: solid 1px gray;
@@ -438,7 +438,6 @@ div.contenedorh1 > h1
     margin-right: auto;
 
 }
-
 #id {
     display: block;
    margin: auto;
