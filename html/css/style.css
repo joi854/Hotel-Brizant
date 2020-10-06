@@ -40,9 +40,9 @@ body{
 }
 .cabecera{
     display:block;
-    text-align:center;
+    text-align: left;
     font-family:Algerian;    
-    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Binary_system_coalescence.gif/300px-Binary_system_coalescence.gif);
+   background-color: black  ;
     color: greenyellow;
     width: 100%;
     height: 100px;
@@ -70,16 +70,16 @@ h1.N::first-letter{
     margin-top: 105px;
     background-color: black;
     width: 100%;
-    height: 30px;
+    height: 50px;
     
 }
 #link>a{
-    color: white;
+    color: greenyellow;
     text-decoration: none;
     padding: 30px 20px;
 }
 #link >  a:hover{
-    background-color: rgb(17, 216, 83);
+    background-color: rgb(29, 48, 66);
  }
 #vista{
     display: block;
@@ -90,7 +90,7 @@ h1.N::first-letter{
 #direccion>h2{
     font-family:'Roboto', sans-serif;       
     text-align: center;
-    background-image: url(https://i.makeagif.com/media/5-01-2017/PycmF1.gif);
+  background-color: black;
  color: white;   
 }
 #direccion>h3{
