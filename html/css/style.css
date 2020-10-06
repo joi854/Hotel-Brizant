@@ -124,11 +124,11 @@ h1.N::first-letter{
 #imagen{
     height: 600px;
     display: block;
-    border-radius: 20%;
+    border-radius: 20px;
     margin-right:auto ;
     margin-top: 35px;
     width: 20%;
-    margin-left: 15%;
+    margin-left: 8px;
 }
 #tarjetas{
     width: 510px;
@@ -175,18 +175,21 @@ h1.N::first-letter{
 }
 
 #reservaciones{
+    height: 100%;
     border: none;
     display:inline-block;
     width: 60%;
-    margin-top: 8%;
-    margin-left: 25%;
-    border-radius: 30px;
-    background-color: rgb(42, 72, 128);
+    margin-top: 15%;
+    margin-left: 27%;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-top: 35px;
+    background-color: rgb(220, 232, 255);
     border-width: 1px;
     border-style: solid;
 }
 #fi{
-    border-radius: 30px;
+    border-radius: 20px;
     border: black;
 }
 #icono
@@ -194,15 +197,56 @@ h1.N::first-letter{
     display: block;
     height:150px;
     margin: auto;
+    border-radius: 26px;
+    width: 28%;
 
 }
 #texto{
-    font-size: 20px;
-    width: 30%;
+    font-size: 19px;
+    width: 70%;
+    height: 19px;
     margin: 9px;
-    margin-left: 35%;
+    margin-left: 14%;
     font-family:'Roboto', sans-serif;    
 }
+#texto1{
+    font-size: 19px;
+    width: 34%;
+    height: 20.3px;
+    margin: 7px;
+    margin-left: 13.6%;
+    text-align: center;
+    
+    
+    
+}
+
+#texto2{
+    width: 35%;
+    height: 24%;
+    font-size: 17.5px;
+    margin-left: 12;
+    text-align: center;
+    
+
+}
+
+#texto3{
+    font-size: 19px;
+    width: 33%;
+    height: 18.9px;
+    margin: 9px;
+    margin-left: 13%;
+    text-align: center;
+}
+#texto4{
+    width: 35%;
+    height: 24%;
+    font-size: 17px;
+    margin-left: 14;
+  
+}
+
 #sexo
 {
     font-family:'Roboto', sans-serif;    
@@ -218,31 +262,51 @@ h1.N::first-letter{
 #dia{
     text-align: center;
     margin-left: 40%;
-    font-size: 20px;
-    font-family:'Roboto', sans-serif;       
+    font-size: 13px;
+    font-family:'Castellar', sans-serif;       
 }
 
-#guardar{
+#Can{
     display: inline-block;
-    width: 40%;
-    height: 40px;
-    margin-left: 30%;
-    border-radius: 90px;
+    width: 21%;
+    height: 36px;
+    border-top: solid 5px gray;
+    margin-left: 300px;
+    border-radius: 14px;
     border:none;
-    background-color: green;
-    font-size: 25px;
+    background-color:rgb(4, 121, 4);
+    font-size: 68%;
     color: white;
-    margin-bottom: 10px;
+    margin-top: 10px;
 }
-#guardar:hover{
-    background-color: rgb(14, 235, 14);
+#Can:hover{
+    background-color:black;
+}
+
+#en-in{
+    display: inline-block;
+    width: 20%;
+    height: 38px;
+    margin-top: 15px;
+    border-radius: 14px;
+    border:none;
+    background-color:rgb(165, 8, 8);
+    font-size: 68%;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+#en-in:hover{
+    background-color:black;
 }
 
 #c{
-    margin-left: 10%;
+    margin-left: 12%;
     margin-top: 5%;
     font-size: 22px;
     color: dimgray;
+    text-align: center;
 
 }
 #contacto{
@@ -253,7 +317,7 @@ h1.N::first-letter{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    font-size: 22;
+    font-size: 20;
 }
 
 #th{
@@ -329,11 +393,11 @@ h1.N::first-letter{
 }
 #imag{
     /*background-color: cornflowerblue;*/
-    width: 30%;
+    width: 22%;
     height: 320px;
     border-radius: 1px;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     float: left;
     border-style: solid;
     border-width: 2px;
